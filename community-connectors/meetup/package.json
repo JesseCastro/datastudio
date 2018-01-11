@@ -1,0 +1,22 @@
+{
+  "name": "meetup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "author": "Matt Hamrick",
+  "license": "MIT",
+  "devDependencies": {
+    "jest-cli": "^22.0.4"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "**/*.js"
+    ],
+    "bail": true,
+    "testEnvironment": "node"
+  }
+}
