@@ -1,4 +1,4 @@
-const CustomCache = require('../CustomCache.js');
+const CustomCache = require('../src/CustomCache.gs');
 
 /**
  * @param {object} param an object containing urlName, apiType, and fields that should be built into the request.

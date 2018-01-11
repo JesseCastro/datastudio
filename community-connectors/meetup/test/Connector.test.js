@@ -1,6 +1,6 @@
-var Connector = require('../Connector.js');
-var Schema = require('../schema.js');
-var CustomCache = require('../CustomCache.js');
+var Connector = require('../src/Connector.gs');
+var Schema = require('../src/schema.gs');
+var CustomCache = require('../src/CustomCache.gs');
 var {buildFakeRequest, buildFields, initCache} = require('./test-util.js');
 
 var urlFetchMock, errorMock, consoleLogMock, accessTokenMock, c;

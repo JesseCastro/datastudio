@@ -1,4 +1,4 @@
-var CustomCache = require('../CustomCache.js');
+var CustomCache = require('../src/CustomCache.gs');
 const {initCache} = require('./test-util.js');
 
 test('initialization test no existing spreadsheet', () => {
