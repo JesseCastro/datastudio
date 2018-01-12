@@ -241,6 +241,18 @@ Schema.prototype.getSchema = function(apiType) {
       }
     },
     {
+      'name': 'category_photo',
+      'label': 'Category Photo',
+      'description': 'The photo of the category the group belongs to.',
+      'dataType': 'STRING',
+      'formula': 'IMAGE(category_photo_url, "Category the group belongs to.")',
+      'semantics': {
+        'conceptType': 'DIMENSION',
+        'semanticType': 'IMAGE',
+        'semanticGroup': 'IMAGE'
+      }
+    },
+    {
       'name': 'group_photo_url',
       'label': 'Group Photo URL',
       'description': 'The url of the group photo of the group.',
@@ -249,6 +261,18 @@ Schema.prototype.getSchema = function(apiType) {
         'conceptType': 'DIMENSION',
         'semanticType': 'URL',
         'semanticGroup': 'URL'
+      }
+    },
+    {
+      'name': 'group_photo',
+      'label': 'Group Photo',
+      'description': 'The photo of the group.',
+      'dataType': 'STRING',
+      'formula': 'IMAGE(group_photo_url, "Photo of the group.")',
+      'semantics': {
+        'conceptType': 'DIMENSION',
+        'semanticType': 'IMAGE',
+        'semanticGroup': 'IMAGE'
       }
     },
     {
